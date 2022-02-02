@@ -5,3 +5,33 @@
 width: 100%;
 height: 100%;
 }
+.row{
+    margin: 20px 20px;
+
+}
+.col1{
+    float: left;
+    width: 50%;
+    height: 500px;
+    background-color: sienna;
+}
+.col2{
+    float: right;
+    width: 50%;
+    height: 500px;
+    font-size: 20px;
+    background-color: skyblue;
+}
+.my-list{
+    padding-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+}
+img{
+    width: 100%;
+    height: 500px;
+}
