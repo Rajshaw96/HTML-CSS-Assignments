@@ -7,7 +7,6 @@ height: 100%;
 }
 .row{
     margin: 20px 20px;
-
 }
 .col1{
     float: left;
@@ -29,7 +28,7 @@ height: 100%;
 }
 h1{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 img{
     width: 100%;
