@@ -41,17 +41,17 @@ nav ul li{
     list-style: none;
     display: inline;
 }
-.nav-left{
+.left-sidebar-menu{
     background-color: gainsboro;
     width: 20%;
     height: 560px;
     display: inline-block;
     overflow: hidden;
 }
-.nav-left ul{
+.left-sidebar-menu ul{
     list-style-type: none;
 }
-.nav-left li{
+.left-sidebar-menu li{
     padding: 10px;
     padding-left: 50px;
     font-size: 20px;
