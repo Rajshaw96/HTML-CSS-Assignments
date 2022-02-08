@@ -1,7 +1,43 @@
 /* Our CSS file. */
-
+body{
+    margin: 0;
+}
 
 .container, .content {
 width: 100%;
 height: 100%;
+}
+.containers{
+    background-color: #F2F2F2;
+    overflow: hidden;
+    padding: 60px;
+}
+#container-left{
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+.container-button{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+}
+#container-right{
+    width: 50%;
+    height: 400px;
+    float: right;
+}
+#render-wiki{
+    width: 100%;
+    height: 100%;
+}
+#container-center{
+    text-align: center;
+}
+#render-dictionary{
+    width: 100%;
+    height: 500px;
 }
