@@ -1,7 +1,92 @@
 /* Our CSS file. */
 
-
+body{
+    margin: 0;
+}
 .container, .content {
 width: 100%;
 height: 100%;
+}
+header{
+    background-color: azure;
+    width: 100%;
+
+    overflow: hidden;
+    padding-top: 10px;
+}
+.logo{
+    width: 300px;
+    height: 80px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.search{
+    float: right;
+    margin-top: 35px;
+    padding-right: 30px;
+}
+nav{
+    text-align: center;
+    background-color: black;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+nav a{
+    text-decoration:none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+} 
+nav ul li{
+    list-style: none;
+    display: inline;
+}
+.left-sidebar-menu{
+    background-color: gainsboro;
+    width: 20%;
+    height: 560px;
+    display: inline-block;
+    overflow: hidden;
+}
+.left-sidebar-menu ul{
+    list-style-type: none;
+}
+.left-sidebar-menu li{
+    padding: 10px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+#main-center-section{
+    background-color: coral;
+    width: 59%;
+    height:560px;
+    display: inline-block;
+    overflow: hidden;
+}
+.post-img img{
+    display: inline-block;
+    width: 230px;
+    height: 260px;
+    margin: 5px;
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.nav-right{
+    background-color: gainsboro;
+    width: 20%;
+    height: 560px;
+    display: inline-block;
+    overflow: hidden;
+}
+#right-sidebar-menu li{
+    list-style-type: none;
+    padding: 10px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+#page-footer{
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
 }
